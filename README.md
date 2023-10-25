@@ -22,5 +22,6 @@ Make sure you are in the same directory as this repo within your terminal.
 
 1. `git clone https://github.com/chadaeun/weat_replication.git`
 2. open weat/weat.json and add one of those files in the same format, if you want
-3. `python3 weat_replication/convert_weat.py --weat_dir weath_replication/weat --output weat_replication/weat/weat.json`
-4. `python3 weat_replication/weat_test/py --word_embedding_type glove --word_embedding_path glove/vectors1800.txt --weat_path weat_replication/weat/weat.json --output output1800.csv`
+3. if you just added one of those files, run `python3 weat_replication/convert_weat.py --weat_dir weath_replication/weat --output weat_replication/weat/weat.json`
+4. run the WEAT itself with`python3 weat_replication/weat_test/py --word_embedding_type glove --word_embedding_path glove/vectors1800.txt --weat_path weat_replication/weat/weat.json --output output1800.csv`
+5. view the results in output.csv or whatever you called it, in the main directory
