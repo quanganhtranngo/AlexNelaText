@@ -26,7 +26,7 @@ def clear_folder_contents(folder_path):
             except Exception as e:
                 print(f"Failed to delete {file_path}: {e}")
     else:
-        os.makedirs("folder_path")
+        os.makedirs(folder_path)
         # print(f"The folder '{folder_path}' does not exist.")
 
 
